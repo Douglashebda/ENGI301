@@ -53,6 +53,11 @@ Error conditions:
 """
 
 import operator
+import sys
+
+if (sys.version_info[0] == 2):
+    import six
+    
 
 # ------------------------------------------------------------------------
 # Constants
@@ -67,7 +72,11 @@ operators = {
     "+" : operator.add,
     "-" : operator.sub,
     "*" : operator.mul,
-    "/" : operator.truediv
+    "/" : operator.truediv,
+    ">>" : operator.rshift,
+    "<<" : operator.lshift,
+    "%" : operator.mod,
+    "**" : operator.pow
 }
 
 # ------------------------------------------------------------------------
@@ -78,9 +87,17 @@ def get_user_input():
     
     
     try:
-        number1 = float(input("Enter the first number: "))
-        number2 = float(input("Enter the second number: ")) 
-        operator = input("Enter the operator (valid operators are  +,-,*, and /): ")
+        if (sys.version_info[0] == 2):
+            number1 = float(six.moves.input("Enter the first number: "))
+            number2 = float(six.moves.input("Enter the second number: ")) 
+            operator = six.moves.input("Enter the operator (valid operators are  +,-,*,/,>>,<<,%, or **): ")
+        
+        if (sys.version_info[0] == 3):
+            number1 = float(input("Enter the first number: "))
+            number2 = float(input("Enter the second number: ")) 
+            operator = input("Enter the operator (valid operators are  +,-,*,/,>>,<<,%, or **): ")
+        
+        
         
         return (number1, number2, operator)
         
@@ -102,6 +119,10 @@ if __name__ == "__main__":
         
         #Get User inputs
         (number1, number2, op) = get_user_input()
+    
+        if op == ">>" or op == "<<":
+            number1 = int(number1)
+            number2 = int(number2)
     
         #get function to executre from operators dictionary
         function = operators.get(op, None)
