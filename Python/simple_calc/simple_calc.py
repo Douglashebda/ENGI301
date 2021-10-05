@@ -44,6 +44,10 @@ Operations:
   - subtraction
   - multiplication
   - division
+  - right shift
+  - left shift
+  - modulus
+  - exponentiation
 
 Error conditions:
   - Invalid operator --> Program should exit
