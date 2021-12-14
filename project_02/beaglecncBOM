@@ -1,0 +1,12 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"AVAILABILITY";"CUI_PURCHASE_URL";"DESCRIPTION";"MF";"MP";"PACKAGE";"PRICE";"PROD_ID";"PURCHASE-URL";
+"4";"";"CONN_03X22X3_SILK_MALE_PTH";"2X3";"J4, J6, J11, J12";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"";"";"";"CONN-09701";"";
+"4";"";"CONN_04PTH";"1X04";"J1, J2, J3, J10";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"";"";"";"CONN-09696";"";
+"2";"";"CONN_04X2";"2X4";"J7, J8";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"";"";"";"";"";
+"1";"";"CONN_10X2";"2X10";"J5";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"";"";"";"";"";
+"1";"0.1";"R_R0805";"R0805";"R1";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"";
+"4";"A4988_STEPPER_MOTOR_DRIVER_CARRIER";"A4988_STEPPER_MOTOR_DRIVER_CARRIER";"MODULE_A4988_STEPPER_MOTOR_DRIVER_CARRIER";"U1, U2, U3, U4";"Stepper motor controler; IC: A4988; 1A; Uin mot: 8÷35V Check prices";"Not in stock";"";" Stepper Motor Driver ";"Pololu";"A4988 STEPPER MOTOR DRIVER CARRIER";"None";"None";"";"";
+"4";"EEUFR1H101";"EEUFR1H101";"CAPPRD350W60D800H1150";"C1, C2, C3, C5";"FR-A  Check prices";"In Stock";"";" 100µF 50V Aluminum Electrolytic Capacitors Radial, Can 6000 Hrs @ 105°C ";"Panasonic";"EEUFR1H101";"RADIAL-2 Panasonic";"None";"";"https://pricing.snapeda.com/search/part/EEUFR1H101/?ref=eda";
+"3";"FIDUCIAL";"FIDUCIAL";"FIDUCIAL_40MIL";"FUD1, FUD2, FUD3";"";"";"";"";"";"";"";"";"";"";
+"4";"MOUNTING_HOLE";"MOUNTING_HOLE";"MOUNTING_HOLE";"MGT1, MGT2, MGT3, MGT4";"Chassis Mounting Hole w/GND connection ability";"";"";"";"";"";"";"";"";"";
+"1";"PJ-102AH";"PJ-102AH";"CUI_PJ-102AH";"J9";"2.0 mm Center Pin, 5.0 A, Right Angle, Through Hole, Tapered Pins, Dc Power Jack Connector Check prices";"In Stock";"https://www.cuidevices.com/product/interconnect/connectors/dc-power-connectors/jacks/pj-102ah?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM";"2.0 x 6.5 mm, 5.0 A, Horizontal, Through Hole, Tapered Pins, Dc Power Jack Connector";"CUI Devices";"PJ-102AH";"None";"None";"";"https://pricing.snapeda.com/search/part/PJ-102AH/?ref=eda";
+"1";"POCKETBEAGLE";"POCKETBEAGLE";"POCKETBEAGLE";"U5";"";"";"";"";"";"";"";"";"";"";
